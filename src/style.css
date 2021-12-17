@@ -1,0 +1,23 @@
+.app {
+  background-color: thistle;
+}
+.main {
+  border: solid 1px black;
+  max-width: 100vw;
+}
+h1 {
+  text-align: center;
+  color: red;
+}
+.main .imgg {
+  display: flex;
+  justify-content: space-evenly;
+}
+video {
+  padding-left: 438px;
+}
+.coppy {
+  text-align: center;
+  color: black;
+  text-shadow: black 30px;
+}

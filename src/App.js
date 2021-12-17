@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./style.css";
+import imgg from "./istockphoto-1174818077-612x612.jpg";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <div className="main">
+        <h1 className="red">{"Your name here"}</h1>
+        <br />
+        <div className="imgg">
+          <img src="/istockphoto-1148380677-612x612.jpg" alt="Egypt" />
+          <br />
+          <img src={imgg} alt="Egypt" />
+          <br />
+        </div>
+        <video controls width="320" height="240" src="/got.mp4" alt="got" />
+        <div className="coppy">
+          <p>© 2021 All rights reserved. for Mohamed_Essam.</p>
+        </div>
+      </div>
     </div>
   );
 }
